@@ -4,7 +4,10 @@
   "stale_days": 30,
   "workflows": {
     "gate": [
-      "^CI$"
+      "^CI$",
+      "CI Gates",
+      "gate",
+      "门禁"
     ]
   },
   "branch_lines": [
@@ -12,5 +15,12 @@
       "key": "main",
       "ref": "main"
     }
-  ]
+  ],
+  "deployments": {
+    "haowenz001/ci-gates-smoke-20261022": {
+      "environment": "production",
+      "label": "ci-gates-smoke-20261022",
+      "repository": "haowenz001/ci-gates-smoke-20261022-board"
+    }
+  }
 }

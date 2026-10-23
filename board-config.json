@@ -1,0 +1,16 @@
+{
+  "label": "ci-gates-smoke-20261022",
+  "review_sla_days": 3,
+  "stale_days": 30,
+  "workflows": {
+    "gate": [
+      "^CI$"
+    ]
+  },
+  "branch_lines": [
+    {
+      "key": "main",
+      "ref": "main"
+    }
+  ]
+}
